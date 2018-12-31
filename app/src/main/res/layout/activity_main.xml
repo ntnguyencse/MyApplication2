@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/NoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="91dp"
+        android:text="Random Number!"
+        android:textColor="#e41526"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/NutNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        android:text="Random"
+        android:textAllCaps="false"
+        android:textColor="#5fe1ea" />
+
+    <EditText
+
+        android:id="@+id/Ran_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="Nhập giá trị random min"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Ran_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ran_min"
+
+        android:ems="10"
+        android:hint="Nhập giá trị random max"
+        android:inputType="number" />
+
+</RelativeLayout>
+
